@@ -5,14 +5,14 @@
 
 
 ## About this Mod
-Civilization VI modding community is a very vibrant and productive one. There are thousands of mods out there. More than 5500 can be found in the Steam Workshop. Some mods are just small tweaks and additons, other mods are incredibly complex. And so many mods out there are doing a really great job in making the game a little bit better and more fun to play, no matter how big and complex they are.
+The Civilization VI modding community is a very vibrant and productive one. There are thousands of mods out there. More than 5500 can be found in the Steam Workshop. Some mods are just small tweaks and additons, other mods are incredibly complex. And so many mods out there are doing a really great job in making the game a little bit better and more fun to play, no matter how big and complex they are.
 
-But unfortunately not all of the modders are still supporting or working on their mod. No accusation, no complaining! Time is a precious commodity and sometimes it's just the priorities that change.
+But unfortunately not all of the modders are still supporting or working on their mod. **No accusation, no complaining!** Time is a precious commodity and sometimes it's just the priorities that change.
 
 Anyway, and for what reasons ever, there are a few mods out there that haven't been updated in a while and error reports or improvement request in the comments haven't been answered either. These mods seem to be "orphaned".
 The "Let Me Patch That For You" mod wants to help and breathe new life into these "orphans" by applying little patches to them to fix errors, add some improvements or establish compatibility to other mods.
 
-There are three classes of patches:
+So there are three classes of patches:
 1. cosmetic patches
 1. compatibility patches
 1. improvement patches
