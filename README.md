@@ -1,7 +1,7 @@
 # Let Me Patch That For You
-> A collection of patches for orphaned Civ VI mods.
+> A collection of patches for "orphaned" Civilization VI mods.
 
-![Logo](MainBanner.png)
+![Logo](BannerStamp.jpg)
 
 
 ## About this Mod

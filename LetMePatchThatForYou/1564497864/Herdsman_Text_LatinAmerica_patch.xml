@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <!--Latin America-->
+        <Row Tag="LOC_UNIT_HERDSMAN_LEU_P0K_CAPYBARAS_NAME"
+             Language="en_US">
+            <Text>Herdsman (With Capybaras)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_LEU_P0K_CAPYBARAS_DESCRIPTION"
+             Language="en_US">
+            <Text>A simple herdsman with capybaras.</Text>
+        </Row>
+
+
+        <Row Tag="LOC_UNIT_HERDSMAN_LEU_P0K_LLAMAS_NAME"
+             Language="en_US">
+            <Text>Herdsman (With Llamas)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_LEU_P0K_LLAMAS_DESCRIPTION"
+             Language="en_US">
+            <Text>A simple herdsman with llamas.</Text>
+        </Row>
+
+
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_CAPYBARAS_NAME"
+             Language="en_US">
+            <Text>Unrustle Capybaras</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_CAPYBARAS_DESCRIPTION"
+             Language="en_US">
+            <Text>Unrustles Capybaras.</Text>
+        </Row>
+
+
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_LLAMAS_NAME"
+             Language="en_US">
+            <Text>Unrustle Llamas</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_LLAMAS_DESCRIPTION"
+             Language="en_US">
+            <Text>Unrustles Llamas.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

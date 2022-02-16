@@ -1,0 +1,12 @@
+16.02.2022
+
+===== Version 1 =====
+
+Initial release.
+
+- [NEW] Botanist in Latin America patch (compatibility)
+- [NEW] Herdsman in Latin America patch (compatibility)
+- [NEW] Lyceum patch (cosmetic)
+- [NEW] Reindeer patch (cosmetic)
+- [NEW] Very Nice Magazine patch (cosmetic)
+

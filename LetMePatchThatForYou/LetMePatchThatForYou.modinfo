@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="1">
+  <Properties>
+    <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
+    <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1645038877</Created>
+    <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
+    <Authors>H.Humpel</Authors>
+    <Homepage>https://github.com/HpunktHumpel/LetMePatchThatForYou</Homepage>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="f55f5cf1-2743-44db-b764-37e4d62ce851" title="Botanist" />
+    <Mod id="0b46a76c-c719-4c04-8b79-543a26edc0d8" title="Herdsman" />
+    <Mod id="78aa4d0b-742a-4d7a-be7d-a8317d69fb30" title="LatinAmericanResources" />
+    <Mod id="7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3" title="Lyceum" />
+    <Mod id="a847b8ed-e266-4d30-8037-a7372f4f4b40" title="Reindee" />
+    <Mod id="d520c390-cddc-41d0-98ae-e0d6733d859e" title="VeryNiceMagazine" />
+  </References>
+  <ActionCriteria>
+    <!-- FrontEnd Actions -->
+    <Criteria id="BotanistEnabled">
+      <ModIsEnabled>f55f5cf1-2743-44db-b764-37e4d62ce851</ModIsEnabled>
+    </Criteria>
+    <Criteria id="HerdsmanEnabled">
+      <ModIsEnabled>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModIsEnabled>
+    </Criteria>
+    <Criteria id="LatinAmericanResourcesEnabled">
+      <ModIsEnabled>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModIsEnabled>
+    </Criteria>
+    <Criteria id="LyceumEnabled">
+      <ModIsEnabled>7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3</ModIsEnabled>
+    </Criteria>
+    <Criteria id="ReindeerEnabled">
+      <ModIsEnabled>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModIsEnabled>
+    </Criteria>
+    <Criteria id="VeryNiceMagazineEnabled">
+      <ModIsEnabled>d520c390-cddc-41d0-98ae-e0d6733d859e</ModIsEnabled>
+    </Criteria>
+    <!-- InGame Actions -->
+    <Criteria id="BotanistInUse">
+      <ModInUse>f55f5cf1-2743-44db-b764-37e4d62ce851</ModInUse>
+    </Criteria>
+    <Criteria id="HerdsmanInUse">
+      <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
+    </Criteria>
+    <Criteria id="LatinAmericanResourcesInUse">
+      <ModInUse>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModInUse>
+    </Criteria>
+    <Criteria id="LyceumInUse">
+      <ModInUse>7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3</ModInUse>
+    </Criteria>
+    <Criteria id="ReindeerInUse">
+      <ModInUse>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModInUse>
+    </Criteria>
+    <Criteria id="VeryNiceMagazineInUse">
+      <ModInUse>d520c390-cddc-41d0-98ae-e0d6733d859e</ModInUse>
+    </Criteria>
+    <!-- Config Actions -->
+    <Criteria id="BotanistInLatinAmericaConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_BOTANISTINLATINAMERICA_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="HerdsmanInLatinAmericaConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_HERDSMANINLATINAMERICA_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LyceumConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_LYCEUM_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="ReindeerConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_REINDEER_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="VeryNiceMagazineConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_VERYNICEMAGAZINE_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="LMPT4U_GameSetup">
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="LMPT4U_LOC">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="BotanistInLatinAmerica_GameSetup">
+      <Criteria>BotanistEnabled</Criteria>
+      <Criteria>LatinAmericanResourcesEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1588097397/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="BotanistInLatinAmerica_LOC">
+      <Criteria>BotanistEnabled</Criteria>
+      <Criteria>LatinAmericanResourcesEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>1588097397/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="HerdsmanInLatinAmerica_GameSetup">
+      <Criteria>HerdsmanEnabled</Criteria>
+      <Criteria>LatinAmericanResourcesEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="HerdsmanInLatinAmerica_LOC">
+      <Criteria>HerdsmanEnabled</Criteria>
+      <Criteria>LatinAmericanResourcesEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>1564497864/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="Lyceum_GameSetup">
+      <Criteria>LyceumEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1871766085/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Lyceum_LOC">
+      <Criteria>LyceumEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>1871766085/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="Reindeer_GameSetup">
+      <Criteria>ReindeerEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1595724214/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Reindeer_LOC">
+      <Criteria>ReindeerEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>1595724214/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="VeryNiceMagazine_GameSetup">
+      <Criteria>VeryNiceMagazineEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1717330418/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="VeryNiceMagazine_LOC">
+      <Criteria>VeryNiceMagazineEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>1717330418/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="BotanistInLatinAmerica_Gameplay">
+      <Criteria>BotanistInUse</Criteria>
+      <Criteria>LatinAmericanResourcesInUse</Criteria>
+      <Criteria>BotanistConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1588097397/Botanist_Gameplay_LatinAmerica_patch.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="BotanistInLatinAmerica_Text">
+      <Criteria>BotanistInUse</Criteria>
+      <Criteria>LatinAmericanResourcesInUse</Criteria>
+      <Criteria>BotanistConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1588097397/Botanist_Text_LatinAmerica_patch.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="HerdsmanInLatinAmerica_Gameplay">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>LatinAmericanResourcesInUse</Criteria>
+      <Criteria>HerdsmanConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Herdsman_Gameplay_LatinAmerica_patch.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="HerdsmanInLatinAmerica_Icons">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>LatinAmericanResourcesInUse</Criteria>
+      <Criteria>HerdsmanConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Icons_LatinAmerica_patch.sql</File>
+      <File>1564497864/Icons_LatinAmerica_patch.xml</File>
+    </UpdateIcons>
+    <UpdateText id="HerdsmanInLatinAmerica_Text">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>LatinAmericanResourcesInUse</Criteria>
+      <Criteria>HerdsmanConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Herdsman_Text_LatinAmerica_patch.sql</File>
+      <File>1564497864/Herdsman_Text_LatinAmerica_patch.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="Lyceum_Gameplay">
+      <Criteria>LyceumInUse</Criteria>
+      <Criteria>LyceumConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1871766085/Lyceum_Gameplay_patch.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Lyceum_Text">
+      <Criteria>LyceumInUse</Criteria>
+      <Criteria>LyceumConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1871766085/Lyceum_Text_patch.sql</File>
+    </UpdateText>
+    <UpdateText id="Reindeer_Text">
+      <Criteria>ReindeerInUse</Criteria>
+      <Criteria>ReindeerConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1595724214/Reindeer_Text_patch.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="VeryNiceMagazineGameplay">
+      <Criteria>VeryNiceMagazineInUse</Criteria>
+      <Criteria>VeryNiceMagazineConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1717330418/VeryNiceMagazine_Gameplay_patch.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>1564497864/Herdsman_Gameplay_LatinAmerica_patch.sql</File>
+    <File>1564497864/Herdsman_Text_LatinAmerica_patch.sql</File>
+    <File>1564497864/Herdsman_Text_LatinAmerica_patch.xml</File>
+    <File>1564497864/Icons_LatinAmerica_patch.sql</File>
+    <File>1564497864/Icons_LatinAmerica_patch.xml</File>
+    <File>1564497864/LMPT4U_GameSetup.sql</File>
+    <File>1564497864/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1588097397/Botanist_Gameplay_LatinAmerica_patch.sql</File>
+    <File>1588097397/Botanist_Text_LatinAmerica_patch.sql</File>
+    <File>1588097397/LMPT4U_GameSetup.sql</File>
+    <File>1588097397/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1595724214/LMPT4U_GameSetup.sql</File>
+    <File>1595724214/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1595724214/Reindeer_Text_patch.sql</File>
+    <File>1717330418/LMPT4U_GameSetup.sql</File>
+    <File>1717330418/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1717330418/VeryNiceMagazine_Gameplay_patch.sql</File>
+    <File>1871766085/LMPT4U_GameSetup.sql</File>
+    <File>1871766085/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1871766085/Lyceum_Gameplay_patch.sql</File>
+    <File>1871766085/Lyceum_Text_patch.sql</File>
+    <File>LMPT4U_GameSetup.sql</File>
+    <File>LMPT4U_LOC_GameSetup.sql</File>
+  </Files>
+</Mod>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <IconDefinitions>
+    <Row Name="ICON_UNIT_HERDSMAN_LEU_P0K_CAPYBARAS" Atlas="ICON_ATLAS_HERDSMAN_UNITS" Index="5" />
+    <Row Name="ICON_UNIT_HERDSMAN_LEU_P0K_LLAMAS" Atlas="ICON_ATLAS_HERDSMAN_UNITS" Index="2" />
+  </IconDefinitions>
+</GameData>
