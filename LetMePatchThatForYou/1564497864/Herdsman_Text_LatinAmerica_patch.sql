@@ -11,7 +11,7 @@ values
 	;
 
 
-update Herdsman_Resources
+update Herdsman_LatinAmerican_Resources
 set UnitType = 'UNIT_HERDSMAN_'|| replace(ResourceType, 'RESOURCE_',''),
 ImprovementType =  'IMPROVEMENT_UNRUSTLE_'|| replace(ResourceType, 'RESOURCE_','');
 

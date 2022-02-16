@@ -1,4 +1,10 @@
 16.02.2022
+===== Version 2 =====
+
+- [FIXED] Herdsman in Latin America patch
+- [IMPROVED] Lyceum patch
+- [IMPROVED] Very Nice Magazine patch
+
 
 ===== Version 1 =====
 

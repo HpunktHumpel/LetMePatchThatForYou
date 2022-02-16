@@ -5,7 +5,7 @@ INSERT OR REPLACE INTO LocalizedText
   '[ICON_GreatArtist] Lyceum patch',
   'en_US' ),
 ( 'LOC_LMPT4U_LYCEUM_CONFIG_DESC',
-  '[COLOR:SuzerainDark]Mod: Lyceum[ENDCOLOR] (by Linguaphile)[NEWLINE][ICON_GreatArtist] Cosmetic patch by H.Humpel.[NEWLINE][NEWLINE]A small patch fix/add Lyceum''s name and description to this building.',
+  '[COLOR:SuzerainDark]Mod: Lyceum[ENDCOLOR] (by Linguaphile)[NEWLINE][ICON_GreatArtist] Cosmetic patch by H.Humpel.[NEWLINE][NEWLINE]A small patch to fix/add the Lyceum''s name and description to this building.',
   'en_US' ),
 ( 'LOC_LMPT4U_LYCEUM_CONFIG_NAME',
   '[ICON_GreatArtist] Lyceum Patch',

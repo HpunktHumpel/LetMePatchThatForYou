@@ -5,7 +5,7 @@ INSERT OR REPLACE INTO LocalizedText
   '[ICON_ProductionQueue] Herdsman in Latin America patch',
   'en_US' ),
 ( 'LOC_LMPT4U_HERDSMANINLATINAMERICA_CONFIG_DESC',
-  '[COLOR:SuzerainDark]Mod: Herdsman[ENDCOLOR] (by AOM)[NEWLINE][ICON_ProductionQueue] Compatibility patch by H.Humpel.[NEWLINE][NEWLINE]This patch lets the herdsman use the ressources from the "Latin American Resources" mod.',
+  '[COLOR:SuzerainDark]Mod: Herdsman[ENDCOLOR] (by AOM)[NEWLINE][ICON_ProductionQueue] Compatibility patch by H.Humpel.[NEWLINE][NEWLINE]This patch lets the herdsman use the resources from the "Latin American Resources" mod.',
   'en_US' ),
 ( 'LOC_LMPT4U_HERDSMANINLATINAMERICA_CONFIG_NAME',
   '[ICON_ProductionQueue] Hirte in Lateinamerika Patch',

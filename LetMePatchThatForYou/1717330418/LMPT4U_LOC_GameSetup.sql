@@ -5,7 +5,7 @@ INSERT OR REPLACE INTO LocalizedText
   '[ICON_GreatArtist] Very Nice Magazine patch',
   'en_US' ),
 ( 'LOC_LMPT4U_VERYNICEMAGAZINE_CONFIG_DESC',
-  '[COLOR:SuzerainDark]Mod: Very Nice Magazin[ENDCOLOR] (by Mgwska)[NEWLINE][ICON_GreatArtist] Cosmetic patch by H.Humpel.[NEWLINE][NEWLINE]A small patch fix/add Magazine''s name and description to this building.',
+  '[COLOR:SuzerainDark]Mod: Very Nice Magazin[ENDCOLOR] (by Mgwska)[NEWLINE][ICON_GreatArtist] Cosmetic patch by H.Humpel.[NEWLINE][NEWLINE]A small patch to fix/add the Magazine''s name and description to this building.',
   'en_US' ),
 ( 'LOC_LMPT4U_VERYNICEMAGAZINE_CONFIG_NAME',
   '[ICON_GreatArtist] Very Nice Magazin Patch',
