@@ -44,3 +44,5 @@ Suggestions always welcome.
 ## Acknowledgments
 
 Special thanks to all Civ VI modders, especially those whose mods have been patched here over time.
+
+Special thanks to Junky for his help and expertise.

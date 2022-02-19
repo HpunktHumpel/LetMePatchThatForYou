@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="1">
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="3">
   <Properties>
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1645048569</Created>
+    <Created>1645234965</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
+    <SpecialThanks>Junky</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/LetMePatchThatForYou</Homepage>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
@@ -58,6 +59,13 @@
       <ModInUse>d520c390-cddc-41d0-98ae-e0d6733d859e</ModInUse>
     </Criteria>
     <!-- Config Actions -->
+    <Criteria id="BotanistGuildmasterConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_BOTANISTGUILDMASTER_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
     <Criteria id="BotanistInLatinAmericaConfig">
       <ConfigurationValueMatches>
         <ConfigurationId>LMPT4U_BOTANISTINLATINAMERICA_CONFIG</ConfigurationId>
@@ -107,17 +115,23 @@
       </Properties>
       <File>LMPT4U_LOC_GameSetup.sql</File>
     </UpdateText>
+    <UpdateDatabase id="BotanistGuildmaster_GameSetup">
+      <Criteria>BotanistEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1588097397/LMPT4U_GameSetup_Guildmaster.sql</File>
+    </UpdateDatabase>
     <UpdateDatabase id="BotanistInLatinAmerica_GameSetup">
       <Criteria>BotanistEnabled</Criteria>
       <Criteria>LatinAmericanResourcesEnabled</Criteria>
       <Properties>
         <LoadOrder>9999999</LoadOrder>
       </Properties>
-      <File>1588097397/LMPT4U_GameSetup.sql</File>
+      <File>1588097397/LMPT4U_GameSetup_LatinAmerica.sql</File>
     </UpdateDatabase>
-    <UpdateText id="BotanistInLatinAmerica_LOC">
+    <UpdateText id="Botanist_LOC">
       <Criteria>BotanistEnabled</Criteria>
-      <Criteria>LatinAmericanResourcesEnabled</Criteria>
       <Properties>
         <LoadOrder>1</LoadOrder>
       </Properties>
@@ -183,10 +197,26 @@
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
+    <UpdateDatabase id="BotanistGuildmaster_Gameplay">
+      <Criteria>BotanistInUse</Criteria>
+      <Criteria>BotanistGuildmasterConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1588097397/Botanist_Gameplay_Guildmaster_patch.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="BotanistGuildmaster_Text">
+      <Criteria>BotanistInUse</Criteria>
+      <Criteria>BotanistGuildmasterConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1588097397/Botanist_Text_Guildmaster_patch.sql</File>
+    </UpdateText>
     <UpdateDatabase id="BotanistInLatinAmerica_Gameplay">
       <Criteria>BotanistInUse</Criteria>
       <Criteria>LatinAmericanResourcesInUse</Criteria>
-      <Criteria>BotanistConfig</Criteria>
+      <Criteria>BotanistInLatinAmericaConfig</Criteria>
       <Properties>
         <LoadOrder>9999999</LoadOrder>
       </Properties>
@@ -195,7 +225,7 @@
     <UpdateText id="BotanistInLatinAmerica_Text">
       <Criteria>BotanistInUse</Criteria>
       <Criteria>LatinAmericanResourcesInUse</Criteria>
-      <Criteria>BotanistConfig</Criteria>
+      <Criteria>BotanistInLatinAmericaConfig</Criteria>
       <Properties>
         <LoadOrder>9999999</LoadOrder>
       </Properties>
@@ -204,7 +234,7 @@
     <UpdateDatabase id="HerdsmanInLatinAmerica_Gameplay">
       <Criteria>HerdsmanInUse</Criteria>
       <Criteria>LatinAmericanResourcesInUse</Criteria>
-      <Criteria>HerdsmanConfig</Criteria>
+      <Criteria>HerdsmanInLatinAmericaConfig</Criteria>
       <Properties>
         <LoadOrder>9999999</LoadOrder>
       </Properties>
@@ -213,7 +243,7 @@
     <UpdateIcons id="HerdsmanInLatinAmerica_Icons">
       <Criteria>HerdsmanInUse</Criteria>
       <Criteria>LatinAmericanResourcesInUse</Criteria>
-      <Criteria>HerdsmanConfig</Criteria>
+      <Criteria>HerdsmanInLatinAmericaConfig</Criteria>
       <Properties>
         <LoadOrder>9999999</LoadOrder>
       </Properties>
@@ -223,7 +253,7 @@
     <UpdateText id="HerdsmanInLatinAmerica_Text">
       <Criteria>HerdsmanInUse</Criteria>
       <Criteria>LatinAmericanResourcesInUse</Criteria>
-      <Criteria>HerdsmanConfig</Criteria>
+      <Criteria>HerdsmanInLatinAmericaConfig</Criteria>
       <Properties>
         <LoadOrder>9999999</LoadOrder>
       </Properties>
@@ -271,9 +301,12 @@
     <File>1564497864/Icons_LatinAmerica_patch.xml</File>
     <File>1564497864/LMPT4U_GameSetup.sql</File>
     <File>1564497864/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1588097397/Botanist_Gameplay_Guildmaster_patch.xml</File>
     <File>1588097397/Botanist_Gameplay_LatinAmerica_patch.sql</File>
+    <File>1588097397/Botanist_Text_Guildmaster_patch.sql</File>
     <File>1588097397/Botanist_Text_LatinAmerica_patch.sql</File>
-    <File>1588097397/LMPT4U_GameSetup.sql</File>
+    <File>1588097397/LMPT4U_GameSetup_Guildmaster.sql</File>
+    <File>1588097397/LMPT4U_GameSetup_LatinAmerica.sql</File>
     <File>1588097397/LMPT4U_LOC_GameSetup.sql</File>
     <File>1595724214/LMPT4U_GameSetup.sql</File>
     <File>1595724214/LMPT4U_LOC_GameSetup.sql</File>
