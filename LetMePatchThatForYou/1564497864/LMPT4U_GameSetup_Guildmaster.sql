@@ -3,14 +3,14 @@ Domain, DefaultValue, ConfigurationGroup, ConfigurationId, GroupId, Visible, Rea
 SupportsSinglePlayer, SupportsLANMultiplayer, SupportsInternetMultiplayer, SupportsHotSeat, SupportsPlayByCloud,
 ChangeableAfterGameStart, ChangeableAfterPlayByCloudMatchCreate, SortIndex) VALUES
 
-( 'LMPT4U_HERDSMANINLATINAMERICA_CONFIG',           -- ParameterId
-  'LOC_LMPT4U_HERDSMANINLATINAMERICA_CONFIG_NAME',  -- Name
-  'LOC_LMPT4U_HERDSMANINLATINAMERICA_CONFIG_DESC',  -- Description
-  'bool',                                           -- Domain
-  1,                                                -- DefaultValue
-  'Game',                                           -- ConfigurationGroup
-  'LMPT4U_HERDSMANINLATINAMERICA_CONFIG',           -- ConfigurationId
-  'AdvancedOptions',                                -- GroupId
+( 'LMPT4U_HERDSMANGUILDMASTER_CONFIG',            -- ParameterId
+  'LOC_LMPT4U_HERDSMANGUILDMASTER_CONFIG_NAME',   -- Name
+  'LOC_LMPT4U_HERDSMANGUILDMASTER_CONFIG_DESC',   -- Description
+  'bool',                                         -- Domain
+  1,                                              -- DefaultValue
+  'Game',                                         -- ConfigurationGroup
+  'LMPT4U_HERDSMANGUILDMASTER_CONFIG',            -- ConfigurationId
+  'AdvancedOptions',                              -- GroupId
   1,    -- GroupId
   0,    -- ReadOnly
   1,    -- SupportsSinglePlayer

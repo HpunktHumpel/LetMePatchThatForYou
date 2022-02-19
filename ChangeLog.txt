@@ -1,6 +1,8 @@
 19.02.2022
+===== Version 3 =====
 
 - [NEW] Botanist Guildmaster patch (improvement)
+- [NEW] Herdsman Guildmaster patch (improvement)
 
 
 16.02.2022
