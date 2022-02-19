@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="3">
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="4">
   <Properties>
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1645286234</Created>
+    <Created>1645293852</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Junky</SpecialThanks>
