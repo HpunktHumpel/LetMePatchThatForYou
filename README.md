@@ -26,7 +26,7 @@ The **improvement patches** try to improve a mod by adding new features to it. T
 ## Installation
 
 ### Steam Workshop
-The easiest way to install the latest release of this mod is to enable it in the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=comingsoon .
+The easiest way to install the latest release of this mod is to enable it in the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2755575824 .
 
 ### Manual installation
 You can also download the repository here as a zip file and copy the included "LetMePatchThatForYou" folder to your local Civ VI mod folder:
