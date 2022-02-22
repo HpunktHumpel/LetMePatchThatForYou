@@ -4,7 +4,7 @@
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1645293852</Created>
+    <Created>1645569950</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Junky</SpecialThanks>
@@ -16,8 +16,9 @@
     <Mod id="0b46a76c-c719-4c04-8b79-543a26edc0d8" title="Herdsman" />
     <Mod id="78aa4d0b-742a-4d7a-be7d-a8317d69fb30" title="LatinAmericanResources" />
     <Mod id="7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3" title="Lyceum" />
-    <Mod id="a847b8ed-e266-4d30-8037-a7372f4f4b40" title="Reindee" />
+    <Mod id="a847b8ed-e266-4d30-8037-a7372f4f4b40" title="Reindeer" />
     <Mod id="d520c390-cddc-41d0-98ae-e0d6733d859e" title="VeryNiceMagazine" />
+    <Mod id="73b1478a-73bf-4907-8914-b1b5acca388b" title="Wetlands" />
   </References>
   <ActionCriteria>
     <!-- FrontEnd Actions -->
@@ -38,6 +39,9 @@
     </Criteria>
     <Criteria id="VeryNiceMagazineEnabled">
       <ModIsEnabled>d520c390-cddc-41d0-98ae-e0d6733d859e</ModIsEnabled>
+    </Criteria>
+    <Criteria id="WetlandsEnabled">
+      <ModIsEnabled>73b1478a-73bf-4907-8914-b1b5acca388b</ModIsEnabled>
     </Criteria>
     <!-- InGame Actions -->
     <Criteria id="BotanistInUse">
@@ -64,6 +68,9 @@
     <Criteria id="VeryNiceMagazineInUse">
       <ModInUse>d520c390-cddc-41d0-98ae-e0d6733d859e</ModInUse>
     </Criteria>
+    <Criteria id="WetlandsInUse">
+      <ModInUse>73b1478a-73bf-4907-8914-b1b5acca388b</ModInUse>
+    </Criteria>
     <!-- Config Actions -->
     <Criteria id="BotanistGuildmasterConfig">
       <ConfigurationValueMatches>
@@ -82,6 +89,13 @@
     <Criteria id="BotanistInLatinAmericaConfig">
       <ConfigurationValueMatches>
         <ConfigurationId>LMPT4U_BOTANISTINLATINAMERICA_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="BotanistTundraFloodplainsRiceConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_BOTANISTTUNDRAFLOODPLAINSRICE_CONFIG</ConfigurationId>
         <Group>Game</Group>
         <Value>1</Value>
       </ConfigurationValueMatches>
@@ -156,6 +170,14 @@
         <LoadOrder>9999999</LoadOrder>
       </Properties>
       <File>1588097397/LMPT4U_GameSetup_LatinAmerica.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BotanistTundraFloodplainsRice_GameSetup">
+      <Criteria>BotanistEnabled</Criteria>
+      <Criteria>WetlandsEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999991</LoadOrder>
+      </Properties>
+      <File>1588097397/LMPT4U_GameSetup_TundraFloodplainsRice.sql</File>
     </UpdateDatabase>
     <UpdateText id="Botanist_LOC">
       <Criteria>BotanistEnabled</Criteria>
@@ -284,6 +306,15 @@
       </Properties>
       <File>1588097397/Botanist_Text_LatinAmerica_patch.sql</File>
     </UpdateText>
+    <UpdateDatabase id="BotanistTundraFloodplainsRice_Gameplay">
+      <Criteria>BotanistInUse</Criteria>
+      <Criteria>WetlandsInUse</Criteria>
+      <Criteria>BotanistTundraFloodplainsRiceConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999991</LoadOrder>
+      </Properties>
+      <File>1588097397/Botanist_Gameplay_TundraFloodplainsRice_patch.sql</File>
+    </UpdateDatabase>
     <UpdateDatabase id="HerdsmanGuildmaster_Gameplay">
       <Criteria>HerdsmanInUse</Criteria>
       <Criteria>HerdsmanGuildmasterConfig</Criteria>
@@ -377,11 +408,13 @@
     <File>1588097397/BotanistAndHerdsman_Text_Guildmaster_patch.sql</File>
     <File>1588097397/Botanist_Gameplay_Guildmaster_patch.xml</File>
     <File>1588097397/Botanist_Gameplay_LatinAmerica_patch.sql</File>
+    <File>1588097397/Botanist_Gameplay_TundraFloodplainsRice_patch.sql</File>
     <File>1588097397/Botanist_Icons_LatinAmerica_patch.sql</File>
     <File>1588097397/Botanist_Text_Guildmaster_patch.sql</File>
     <File>1588097397/Botanist_Text_LatinAmerica_patch.sql</File>
     <File>1588097397/LMPT4U_GameSetup_Guildmaster.sql</File>
     <File>1588097397/LMPT4U_GameSetup_LatinAmerica.sql</File>
+    <File>1588097397/LMPT4U_GameSetup_TundraFloodplainsRice.sql</File>
     <File>1588097397/LMPT4U_LOC_GameSetup.sql</File>
     <File>1595724214/LMPT4U_GameSetup.sql</File>
     <File>1595724214/LMPT4U_LOC_GameSetup.sql</File>

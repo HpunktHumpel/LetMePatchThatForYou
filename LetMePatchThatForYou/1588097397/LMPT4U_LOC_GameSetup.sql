@@ -13,6 +13,12 @@ INSERT OR REPLACE INTO LocalizedText
 ( 'LOC_LMPT4U_BOTANISTINLATINAMERICA_CONFIG_DESC',
   '[COLOR:SuzerainDark]Mod: Botanist[ENDCOLOR] (by AOM)[NEWLINE][ICON_ProductionQueue] Compatibility patch by H.Humpel.[NEWLINE][NEWLINE]This patch lets the botanist use the resources from the "Latin American Resources" mod.',
   'en_US' ),
+( 'LOC_LMPT4U_BOTANISTTUNDRAFLOODPLAINSRICE_CONFIG_NAME',
+  '[ICON_TechBoosted] Botanist Tundra Floodplains Rice patch',
+  'en_US' ),
+( 'LOC_LMPT4U_BOTANISTTUNDRAFLOODPLAINSRICE_CONFIG_DESC',
+  '[COLOR:SuzerainDark]Mod: Botanist[ENDCOLOR] (by AOM)[NEWLINE][ICON_TechBoosted] Improvement patch by H.Humpel.[NEWLINE][NEWLINE]This patch enables the botanist to plant rice on tundra floodplains fields introduced by the "Wetlands" mod.',
+  'en_US' ),
 
 ( 'LOC_LMPT4U_BOTANISTGUILDMASTER_CONFIG_NAME',
   '[ICON_TechBoosted] Botaniker Gildenmeister Patch',
@@ -25,4 +31,10 @@ INSERT OR REPLACE INTO LocalizedText
   'de_DE' ),
 ( 'LOC_LMPT4U_BOTANISTINLATINAMERICA_CONFIG_DESC',
   '[COLOR:SuzerainDark]Mod: Botanist[ENDCOLOR] (by AOM)[NEWLINE][ICON_ProductionQueue] Kompatibilitäts-Patch von H.Humpel.[NEWLINE][NEWLINE]Dieser Patch läßt den Botaniker die Ressourcen aus dem "Latin American Resources" Mod nutzen.',
+  'de_DE' ),
+( 'LOC_LMPT4U_BOTANISTTUNDRAFLOODPLAINSRICE_CONFIG_NAME',
+  '[ICON_TechBoosted] Botanist Tundra Floodplains Rice patch',
+  'de_DE' ),
+( 'LOC_LMPT4U_BOTANISTTUNDRAFLOODPLAINSRICE_CONFIG_DESC',
+  '[COLOR:SuzerainDark]Mod: Botanist[ENDCOLOR] (by AOM)[NEWLINE][ICON_TechBoosted] Verbesserungs-Patch von H.Humpel.[NEWLINE][NEWLINE]Dieser Patch erlaubt es dem Botaniker Reis auch auf Tundra-Schwemmland-Feldern aus dem "Wetlands" Mod anzupflanzen.',
   'de_DE' );
