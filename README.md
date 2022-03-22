@@ -12,12 +12,15 @@ But unfortunately not all of the modders are still supporting or working on thei
 Anyway, and for what reasons ever, there are a few mods out there that haven't been updated in a while and error reports or improvement request in the comments haven't been answered either. These mods seem to be "orphaned".
 The "Let Me Patch That For You" mod wants to help and breathe new life into these "orphans" by applying little patches to them to fix errors, add some improvements or establish compatibility to other mods.
 
-So there are three classes of patches:
+So there are four classes of patches:
 1. cosmetic patches
+1. fixing patches
 1. compatibility patches
 1. improvement patches
 
-The **cosmetic patches**  are typically small patches that try to fix little errors or forgotten trifles and do not have any effect on the gameplay. These include forgotten text updates, forgotten translation options or errors in the sql or xml files that lead to information not being displayed in the game etc.
+The **cosmetic patches** are typically small patches that try to fix little errors or forgotten trifles and do not have any effect on the gameplay. These include forgotten text updates, forgotten translation options or errors in the sql or xml files that lead to information not being displayed in the game etc.
+
+The **fixing patches** are typically small patches that try to fix little errors or forgotten trifles in the original mod. Usually, these patches have a minor impact on the gameplay.
 
 The **compatibility patches** try to make two mods work together ingame. A typical example is a unit that can interact with elements introduced by another mod, such as a new resource. Usually, these patches have a minor impact on the gameplay.
 

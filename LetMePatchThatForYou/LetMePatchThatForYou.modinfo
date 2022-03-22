@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="4">
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="5">
   <Properties>
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1645569950</Created>
+    <Created>1647974895</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Junky</SpecialThanks>
@@ -14,6 +14,7 @@
   <References>
     <Mod id="f55f5cf1-2743-44db-b764-37e4d62ce851" title="Botanist" />
     <Mod id="0b46a76c-c719-4c04-8b79-543a26edc0d8" title="Herdsman" />
+    <Mod id="25aa6efa-864c-42f3-a82b-0da1e676326e" title="IndonesiaReworkPortLime" />
     <Mod id="78aa4d0b-742a-4d7a-be7d-a8317d69fb30" title="LatinAmericanResources" />
     <Mod id="7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3" title="Lyceum" />
     <Mod id="a847b8ed-e266-4d30-8037-a7372f4f4b40" title="Reindeer" />
@@ -27,6 +28,9 @@
     </Criteria>
     <Criteria id="HerdsmanEnabled">
       <ModIsEnabled>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModIsEnabled>
+    </Criteria>
+    <Criteria id="IndonesiaReworkPortLimeEnabled">
+      <ModIsEnabled>25aa6efa-864c-42f3-a82b-0da1e676326e</ModIsEnabled>
     </Criteria>
     <Criteria id="LatinAmericanResourcesEnabled">
       <ModIsEnabled>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModIsEnabled>
@@ -55,6 +59,12 @@
     </Criteria>
     <Criteria id="HerdsmanNotInUse">
       <ModInUse inverse="1">0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
+    </Criteria>
+    <Criteria id="IndonesiaReworkPortLimeInUse">
+      <ModInUse>25aa6efa-864c-42f3-a82b-0da1e676326e</ModInUse>
+    </Criteria>
+    <Criteria id="IndonesiaReworkPortLimeNotInUse">
+      <ModInUse inverse="1">25aa6efa-864c-42f3-a82b-0da1e676326e</ModInUse>
     </Criteria>
     <Criteria id="LatinAmericanResourcesInUse">
       <ModInUse>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModInUse>
@@ -117,6 +127,13 @@
     <Criteria id="HerdsmanInLatinAmericaConfig">
       <ConfigurationValueMatches>
         <ConfigurationId>LMPT4U_HERDSMANINLATINAMERICA_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="IndonesiaReworkPortLimeGajahMadahConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_INDONESIAREWORK_PORTLIME_GAJAHMADAH_CONFIG</ConfigurationId>
         <Group>Game</Group>
         <Value>1</Value>
       </ConfigurationValueMatches>
@@ -207,6 +224,20 @@
         <LoadOrder>1</LoadOrder>
       </Properties>
       <File>1564497864/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="IndonesiaReworkPortLime_GameSetup">
+      <Criteria>IndonesiaReworkPortLimeEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>2097550217/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="IndonesiaReworkPortLime_LOC">
+      <Criteria>IndonesiaReworkPortLimeEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>2097550217/LMPT4U_LOC_GameSetup.sql</File>
     </UpdateText>
     <UpdateDatabase id="Lyceum_GameSetup">
       <Criteria>LyceumEnabled</Criteria>
@@ -361,6 +392,14 @@
       <File>1564497864/Herdsman_Text_LatinAmerica_patch.sql</File>
       <File>1564497864/Herdsman_Text_LatinAmerica_patch.xml</File>
     </UpdateText>
+    <UpdateDatabase id="IndonesiaReworkPortLimeGajahMadah_Gameplay">
+      <Criteria>IndonesiaReworkPortLimeInUse</Criteria>
+      <Criteria>IndonesiaReworkPortLimeGajahMadahConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>2097550217/IndonesiaRework_PortLime_Gameplay_GajahMadah_patch.sql</File>
+    </UpdateDatabase>
     <UpdateDatabase id="Lyceum_Gameplay">
       <Criteria>LyceumInUse</Criteria>
       <Criteria>LyceumConfig</Criteria>
@@ -426,6 +465,9 @@
     <File>1871766085/LMPT4U_LOC_GameSetup.sql</File>
     <File>1871766085/Lyceum_Gameplay_patch.sql</File>
     <File>1871766085/Lyceum_Text_patch.sql</File>
+    <File>2097550217/IndonesiaRework_PortLime_Gameplay_GajahMadah_patch.sql</File>
+    <File>2097550217/LMPT4U_GameSetup.sql</File>
+    <File>2097550217/LMPT4U_LOC_GameSetup.sql</File>
     <File>LMPT4U_GameSetup.sql</File>
     <File>LMPT4U_LOC_GameSetup.sql</File>
   </Files>
