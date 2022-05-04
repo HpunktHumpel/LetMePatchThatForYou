@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="5">
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="6">
   <Properties>
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1647974895</Created>
+    <Created>1651620039</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Junky</SpecialThanks>
@@ -18,6 +18,7 @@
     <Mod id="78aa4d0b-742a-4d7a-be7d-a8317d69fb30" title="LatinAmericanResources" />
     <Mod id="7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3" title="Lyceum" />
     <Mod id="a847b8ed-e266-4d30-8037-a7372f4f4b40" title="Reindeer" />
+    <Mod id="c4f7b625-9b4e-4067-a41c-a9fb5ecfaa23" title="SecondAbility" />
     <Mod id="d520c390-cddc-41d0-98ae-e0d6733d859e" title="VeryNiceMagazine" />
     <Mod id="73b1478a-73bf-4907-8914-b1b5acca388b" title="Wetlands" />
   </References>
@@ -40,6 +41,9 @@
     </Criteria>
     <Criteria id="ReindeerEnabled">
       <ModIsEnabled>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SecondAbilityEnabled">
+      <ModIsEnabled>c4f7b625-9b4e-4067-a41c-a9fb5ecfaa23</ModIsEnabled>
     </Criteria>
     <Criteria id="VeryNiceMagazineEnabled">
       <ModIsEnabled>d520c390-cddc-41d0-98ae-e0d6733d859e</ModIsEnabled>
@@ -74,6 +78,9 @@
     </Criteria>
     <Criteria id="ReindeerInUse">
       <ModInUse>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModInUse>
+    </Criteria>
+    <Criteria id="SecondAbilityInUse">
+      <ModInUse>c4f7b625-9b4e-4067-a41c-a9fb5ecfaa23</ModInUse>
     </Criteria>
     <Criteria id="VeryNiceMagazineInUse">
       <ModInUse>d520c390-cddc-41d0-98ae-e0d6733d859e</ModInUse>
@@ -148,6 +155,13 @@
     <Criteria id="ReindeerConfig">
       <ConfigurationValueMatches>
         <ConfigurationId>LMPT4U_REINDEER_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SecondAbilityNFPConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_SECONDABILITYNFP_CONFIG</ConfigurationId>
         <Group>Game</Group>
         <Value>1</Value>
       </ConfigurationValueMatches>
@@ -266,6 +280,20 @@
         <LoadOrder>1</LoadOrder>
       </Properties>
       <File>1595724214/LMPT4U_LOC_GameSetup.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="SecondAbility_GameSetup">
+      <Criteria>SecondAbilityEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1520617700/LMPT4U_GameSetup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="SecondAbility_LOC">
+      <Criteria>SecondAbilityEnabled</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>1520617700/LMPT4U_LOC_GameSetup.sql</File>
     </UpdateText>
     <UpdateDatabase id="VeryNiceMagazine_GameSetup">
       <Criteria>VeryNiceMagazineEnabled</Criteria>
@@ -424,6 +452,31 @@
       </Properties>
       <File>1595724214/Reindeer_Text_patch.sql</File>
     </UpdateText>
+    <UpdateDatabase id="SecondAbilityNFP_Gameplay">
+      <Criteria>SecondAbilityInUse</Criteria>
+      <Criteria>SecondAbilityNFPConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1520617700/SecondAbility_Buildings_NFP_patch.xml</File>
+      <File>1520617700/SecondAbility_Units_NFP_patch.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="SecondAbilityNFP_Icons">
+      <Criteria>SecondAbilityInUse</Criteria>
+      <Criteria>SecondAbilityNFPConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1520617700/SecondAbility_Icons_NFP_patch.xml</File>
+    </UpdateIcons>
+    <UpdateText id="SecondAbilityNFP_Text">
+      <Criteria>SecondAbilityInUse</Criteria>
+      <Criteria>SecondAbilityNFPConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1520617700/SecondAbility_Text_NFP_patch.xml</File>
+    </UpdateText>
     <UpdateDatabase id="VeryNiceMagazineGameplay">
       <Criteria>VeryNiceMagazineInUse</Criteria>
       <Criteria>VeryNiceMagazineConfig</Criteria>
@@ -434,6 +487,12 @@
     </UpdateDatabase>
   </InGameActions>
   <Files>
+    <File>1520617700/LMPT4U_GameSetup.sql</File>
+    <File>1520617700/LMPT4U_LOC_GameSetup.sql</File>
+    <File>1520617700/SecondAbility_Buildings_NFP_patch.xml</File>
+    <File>1520617700/SecondAbility_Icons_NFP_patch.xml</File>
+    <File>1520617700/SecondAbility_Text_NFP_patch.xml</File>
+    <File>1520617700/SecondAbility_Units_NFP_patch.xml</File>
     <File>1564497864/Herdsman_Gameplay_Guildmaster_patch.xml</File>
     <File>1564497864/Herdsman_Gameplay_LatinAmerica_patch.sql</File>
     <File>1564497864/Herdsman_Text_Guildmaster_patch.sql</File>

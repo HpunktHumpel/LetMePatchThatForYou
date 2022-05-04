@@ -1,3 +1,10 @@
+===== Version 6 =====
+
+04.05.2022
+
+- [NEW] Second Ability NFP Patch (compatibility)
+
+
 ===== Version 5 =====
 
 22.03.2022

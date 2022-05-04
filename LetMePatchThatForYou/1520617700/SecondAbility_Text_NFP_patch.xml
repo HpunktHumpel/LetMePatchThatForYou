@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_AMBIORIX_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- AMBIORIX</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_AMBIORIX_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of AMBIORIX.[NEWLINE][NEWLINE]Hallstatt Culture--Mines provide a minor adjacency bonus for all districts, a Culture Bomb of unowned territory, and receive +1 [ICON_Culture] Culture. Specialty districts do not receive a minor adjacency for being adjacent to another district and these districts cannot be built adjacent to the City Center.[NEWLINE][NEWLINE]King of the Eburones--Your civilization gains [ICON_Culture] Culture equal to 20% of the unit’s cost when a non-civilian is trained. Melee, Anti-Cavalry, and Ranged Units receive +2 [ICON_Strength] Combat Strength for every adjacent unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_BASIL_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- BASIL II</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_BASIL_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of BASIL II.[NEWLINE][NEWLINE]Taxis--Units receive +3 [ICON_Strength] Combat Strength or [ICON_Religion] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). Byzantium's Religion is spread to nearby cities when defeating a unit belonging to an enemy civilization or city-state. +1 [ICON_GreatProphet] Great Prophet point from cities with a Holy Site district.[NEWLINE][NEWLINE]Porphyrogénnētos--Heavy and Light Cavalry units do full damage against cities following the same religion as Byzantium. Gain the Tagma unique unit when the Divine Right civic is discovered.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_CATHERINE_DE_MEDICI_ALT_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- CATHERINE DE MEDICI[NEWLINE]  (Magnificence)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_CATHERINE_DE_MEDICI_ALT_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of CATHERINE DE MEDICI (Magnificence).[NEWLINE][NEWLINE]Grand Tour--+20% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is +100%.[NEWLINE][NEWLINE]Catherine’s Magnificences--Improved Luxury resources adjacent to Theater Square districts or Châteaux receive +2 [ICON_Culture] Culture. May initiate the Court Festival project in any city with a Theater Square district.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_CATHERINE_DE_MEDICI_EXPANDED_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- CATHERINE DE MEDICI[NEWLINE]  (Black Queen)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_CATHERINE_DE_MEDICI_EXPANDED_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of CATHERINE DE MEDICI (Black Queen).[NEWLINE][NEWLINE]Grand Tour--+20% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is +100%.[NEWLINE][NEWLINE]Catherine's Flying Squadron--Has 1 level of [ICON_VisLimited] Diplomatic Visibility greater than normal with every civilization that she's met. Receives a free Spy (and extra spy capacity) with the Castles technology. All spies start as Agents with a free promotion..</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_HAMMURABI_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- HAMMURABI</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_HAMMURABI_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of HAMMURABI.[NEWLINE][NEWLINE]Enuma Anu Enlil--[ICON_TechBoosted] Eurekas provide all of the [ICON_Science] Science for technologies. -50% [ICON_Science] Science per turn.[NEWLINE][NEWLINE]Ninu Ilu Sirum--When each specialty district type except the Government Plaza is constructed for the first time receive the lowest [ICON_Production] Production cost building that can currently be constructed in that district. Receive an [ICON_Envoy] Envoy when any other district is constructed for the first time..</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_JOAO_III_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- JOAO III</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_JOAO_III_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of JOAO III.[NEWLINE][NEWLINE]Casa da Índia--International [ICON_TradeRoute] Trade Routes can only reach cities on the coast or with a Harbor, but receive +50% towards all yields. Trader units have +50% range over water, and can embark as soon as they are unlocked.[NEWLINE][NEWLINE]Porta do Cerco--All units receive +1 sight. +1 [ICON_TradeRoute] Trade Route capacity when a civilization is met. Open Borders with all city-states..</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_KUBLAI_KHAN_CHINA_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- KUBLAI KHAN (China)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_KUBLAI_KHAN_CHINA_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of KUBLAI KHAN (China).[NEWLINE][NEWLINE]Dynastic Cycle--[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 50% of civics and technologies instead of 40%.[NEWLINE][NEWLINE]]Gerege--One extra Economic policy slot in any government. Receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration when establishing a [ICON_Tradingpost] Trading Post in another Civilization's city for the first time.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_KUBLAI_KHAN_MONGOLIA_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- KUBLAI KHAN (Mongolia)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_KUBLAI_KHAN_MONGOLIA_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of KUBLAI KHAN (Mongolia).[NEWLINE][NEWLINE]Örtöö-Starting a [ICON_TradeRoute] Trade Route immediately creates a [ICON_Tradingpost] Trading Post in the destination city. Receive an extra level of [ICON_VisLimited] Diplomatic Visibility for possessing a [ICON_Tradingpost] Trading Post in any city of a civilization. All Mongolian units double the usual [ICON_Strength] Combat Bonus for having a higher level of [ICON_VisLimited] Diplomatic Visibility than their opponent.[NEWLINE][NEWLINE]Gerege--One extra Economic policy slot in any government. Receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration when establishing a [ICON_Tradingpost] Trading Post in another Civilization's city for the first time.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_LADY_SIX_SKY_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- LADY SIX SKY</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_LADY_SIX_SKY_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of LADY SIX SKY.[NEWLINE][NEWLINE]Mayab--Settling adjacent to Fresh Water and Coast do not provide extra [ICON_Housing] Housing, instead each Farm provides an additional +1 [ICON_Housing] Housing and +1 [ICON_Gold] Gold. +1 [ICON_Amenity] Amenity for every Luxury adjacent to the City Center.[NEWLINE][NEWLINE]Ix Mutal Ajaw--Non capital cities within 6 tiles of the [ICON_Capital] Capital gain +10% to all yields. Other non capital cities receive -15% to all yields. +5 [ICON_Strength] Combat Strength to units within 6 tiles of the [ICON_Capital] Capital.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_LADY_TRIEU_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- BA TRIEU</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_LADY_TRIEU_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of BA TRIEU.[NEWLINE][NEWLINE]Nine Dragon River Delta--All land specialty districts can only be built on Rainforest, Marsh, or Woods. Receive the following yields for every building on these features: +1 [ICON_Culture] Culture in Woods, +1 [ICON_Science] Science in Rainforest and +1 [ICON_Production] Production in Marsh. Woods can be planted with the Medieval Faires civic.[NEWLINE][NEWLINE]Drive Out The Aggressors--+5 [ICON_Strength] Combat Strength for units fighting in Rainforest, Marsh, or Woods tiles. +1 [ICON_Movement] Movement if they begin their turn there. Both these bonuses are doubled if the tile is your territory.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_MENELIK_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- MENELIK II</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_MENELIK_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of MENELIK II.[NEWLINE][NEWLINE]Aksumite Legacy--Ethiopia’s International Trade Routes grant +0.5 [ICON_Faith] Faith per resource at the origin. Improved resources provide +1 [ICON_Faith] Faith for each copy the city owns. Can purchase Archaeological Museums and Archaeologists with [ICON_Faith] Faith.[NEWLINE][NEWLINE]Council of Ministers--Receive [ICON_Science] Science and [ICON_Culture] Culture equal to 15% of your [ICON_Faith] Faith generation in cities founded on Hills. Units receive +4 [ICON_Strength] Combat Strength on Hills.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_SIMON_BOLIVAR_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- SIMON BOLIVAR</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of SIMON BOLIVAR.[NEWLINE][NEWLINE]Ejército Patriota--+1 [ICON_Movement] Movement to all units. Promoting a unit does not end that unit’s turn.[NEWLINE][NEWLINE]Campaña Admirable--Earn a Comandante General when the game enters a new era.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_T_ROOSEVELT_BULLMOOSE_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- TEDDY ROOSEVELT[NEWLINE]  (Bull Moose)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_T_ROOSEVELT_BULLMOOSE_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of TEDDY ROOSEVELT (Bull Moose).[NEWLINE][NEWLINE]Founding Fathers--All Diplomatic policy slots in the current government are converted to Wildcard slots. +1 [ICON_FAVOR] Diplomatic Favor per turn for every Wildcard slot in their government.[NEWLINE][NEWLINE]Antiquities and Parks--Breathtaking tiles adjacent to either a Natural Wonder or a Mountain receive +2 [ICON_Science] Science. Breathtaking tiles adjacent to either a Wonder or Woods receive +2 [ICON_Culture] Culture. All tiles in a city with a National Park are +1 Appeal.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_T_ROOSEVELT_ROUGHRIDER_NAME" Language="en_US">
+			<Text>Second ability[NEWLINE]- TEDDY ROOSEVELT[NEWLINE]  (Rough Rider)</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECOND_LEADER_T_ROOSEVELT_ROUGHRIDER_DESCRIPTION" Language="en_US">
+			<Text>Choose to acquire the civilization, leader characteristics and unique unit of TEDDY ROOSEVELT (Rough Rider).[NEWLINE][NEWLINE]Founding Fathers--All Diplomatic policy slots in the current government are converted to Wildcard slots. +1 [ICON_FAVOR] Diplomatic Favor per turn for every Wildcard slot in their government.[NEWLINE][NEWLINE]Roosevelt Corollary--Units receive +5 [ICON_Strength] Combat Strength on their home continent. Envoys sent to City-States you have a [ICON_TradeRoute] Trade Route to count as two [ICON_Envoy] Envoys. Gain the Rough Rider unique unit with Rifling.</Text>
+		</Row>
+
+		<!-- update old data -->
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_BARBAROSSA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- FREDERICK BARBAROSSA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_BARBAROSSA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of FREDERICK BARBAROSSA.[NEWLINE][NEWLINE]Grand Tour--+20% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is doubled.[NEWLINE][NEWLINE]Catherine's Flying Squadron--Has 1 level of [ICON_VisLimited] Diplomatic Visibility greater than normal with every civilization that she's met. Receives a free Spy (and extra spy capacity) with the Castles technology. All spies start as Agents with a free promotion.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_CLEOPATRA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- CLEOPATRA</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_GANDHI_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- GANDHI</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_GANDHI_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of GANDHI.[NEWLINE][NEWLINE]Dharma--Receives Follower Belief bonuses in a city from each Religion that has at least 1 follower. Cities gain an [ICON_Amenity] Amenity for every Religion with at least 1 Follower. Missionaries have +2 spreads. +100% Religious pressure from your [ICON_TradeRoute] Trade Routes.[NEWLINE][NEWLINE]Satyagraha-- +5 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war. Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_GILGAMESH_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- GILGAMESH</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_GORGO_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- GORGO</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_HARDRADA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- HARALD HARDRADA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_HARDRADA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of HARALD HARDRADA.[NEWLINE][NEWLINE]Knarr--Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology. Naval melee units heal in neutral territory. Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking.[NEWLINE][NEWLINE]Thunderbolt of the North--Allows coastal raiding for all naval melee units and +50% [ICON_PRODUCTION] Production toward all naval melee units. Receive [ICON_Science] Science from pillaging and coastal raiding Mines in addition to [ICON_Gold] Gold. Pillaging or coastal raiding Quarries, Pastures, Plantations, and Camps provide [ICON_Culture] Culture in addition to [ICON_Faith] Faith. Gain the Viking Longship unique unit with Sailing.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_HOJO_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- HOJO TOKIMUNE</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_HOJO_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of HOJO TOKIMUNE.[NEWLINE][NEWLINE]Meiji Restoration--All districts receive an additional standard adjacency bonus for being adjacent to another district.[NEWLINE][NEWLINE]Divine Wind--Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast; naval units receive +5 [ICON_Strength] Combat Strength in shallow water tiles. Builds Encampment, Holy Site and Theater Square districts in half the time. Units do not receive damage from Hurricanes. Civilizations that are at war with Japan receive +100% unit damage from Hurricanes in Japanese territory.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MVEMBA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- MVEMBA A NZINGA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MVEMBA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of MVEMBA A NZINGA.[NEWLINE][NEWLINE]Nkisi--+2 [ICON_Food] Food, +2 [ICON_Production] Production, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Receive 50% more [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, and [ICON_GreatMerchant] Great Merchant points. Palace has slots for 5 Great Works.[NEWLINE][NEWLINE]Religious Convert--Gains all Beliefs of any Religion that has established itself in a majority of his cities. Receives an Apostle each time he finishes a M'banza or Theater Square district (of that city's majority Religion).</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PEDRO_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- PEDRO II</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PEDRO_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of PEDRO II.[NEWLINE][NEWLINE]Amazon--Rainforest tiles provide +1 adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts. Rainforest tiles provide +1 [ICON_Housing] Housing for Neighborhoods built adjacent to them.[NEWLINE][NEWLINE]Magnanimous--After recruiting or patronizing a [ICON_GreatPerson] Great Person, 20% of its [ICON_GreatPerson] Great Person point cost is refunded.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PERICLES_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- PERICLES</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PETER_GREAT_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- PETER</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PHILIP_II_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- PHILIP II</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PHILIP_II_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of PHILIP II.[NEWLINE][NEWLINE]Treasure Fleet--May form Fleets and Armadas earlier than usual (Mercantilism). [ICON_TradeRoute] Trade Routes between multiple continents receive bonus [ICON_Gold] Gold for routes to other civilizations, and bonus [ICON_Food] Food and [ICON_Production] Production for routes between your own cities. +2 Loyalty per turn for cities with a Mission improvement adjacent to the City Center and not on your original [ICON_Capital] Capital's continent.[NEWLINE][NEWLINE]El Escorial--Inquisitors can Remove Heresy one extra time. Inquisitors eliminate 100% of the presence of other Religions. Combat units have a bonus of +4 [ICON_Strength] Combat Strength against players following other Religions.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_QIN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- QIN SHI HUANG</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_QIN_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of QIN SHI HUANG.[NEWLINE][NEWLINE]Dynastic Cycle--[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 50% of civics and technologies instead of 40%.[NEWLINE][NEWLINE]The First Emperor--When building Ancient and Classical wonders you may spend Builder charges to complete 15% of the original wonder cost. Builders receive an additional charge. Canals are unlocked with the Masonry technology.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_SALADIN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- SALADIN</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_TOMYRIS_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- TOMYRIS</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_TRAJAN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- TRAJAN</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_VICTORIA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- VICTORIA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_VICTORIA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of VICTORIA.[NEWLINE][NEWLINE]Workshop of the World--Iron and Coal Mines accumulate 1 more resource per turn. +100% [ICON_PRODUCTION] Production towards Military Engineers. Military Engineers receive +2 charges. Buildings that provide additional yields when [ICON_POWER] Powered receive +4 of that yield. +20% [ICON_Production] Production towards Industrial Zone buildings. Harbor buildings increase Strategic Resource Stockpiles by +10 (on Standard Speed).[NEWLINE][NEWLINE]Pax Britannica--Each time you found your first city on a continent other than your home continent receive a free melee unit and a [ICON_TradeRoute] Trade Route capacity. Constructing any Royal Navy Dockyard grants you a copy of the strongest naval unit you can build. Gain the Redcoat unique unit when the Military Science technology is researched. </Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MONTEZUMA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- MONTEZUMA</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_JOHN_CURTIN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- JOHN CURTIN</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_JOHN_CURTIN_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of JOHN CURTIN.[NEWLINE][NEWLINE]Land Down Under--+3 [ICON_Housing] Housing in coastal cities. Pastures trigger a Culture Bomb. Yields from Campuses, Commercial Hubs, Holy Sites and Theater Squares are +1 in tiles with Charming Appeal, +3 in Breathtaking. [NEWLINE][NEWLINE]Citadel of Civilization-- +100% [ICON_Production] Production if they have either received a declaration of war or liberated a city in the past 10 turns.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_GITARJA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- GITARJA</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_JAYAVARMAN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- JAYAVARMAN VII</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_JAYAVARMAN_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of JAYAVARMAN VII.[NEWLINE][NEWLINE]Grand Barays--+3 [ICON_FAITH] Faith and +1 [ICON_AMENITIES] Amenity from entertainment to each city with an Aqueduct. Farms provide +2 [ICON_FOOD] Food if adjacent to an Aqueduct.[NEWLINE][NEWLINE]Monasteries of the King--Holy Sites provide +2 [ICON_FOOD] Food and +1 [ICON_HOUSING] Housing if placed on a river. Holy Sites trigger a Culture Bomb.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ALEXANDER_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- ALEXANDER</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_CYRUS_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- CYRUS</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_AMANITORE_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- AMANITORE</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_JADWIGA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- JADWIGA</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_CHANDRAGUPTA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- CHANDRAGUPTA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_CHANDRAGUPTA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of CHANDRAGUPTA.[NEWLINE][NEWLINE]Dharma--Receives Follower Belief bonuses in a city from each Religion that has at least 1 follower. Cities gain an [ICON_Amenity] Amenity for every Religion with at least 1 Follower. Missionaries have +2 spreads. +100% Religious pressure from your [ICON_TradeRoute] Trade Routes.[NEWLINE][NEWLINE]Arthashastra--Can declare a War of Territorial Expansion after gaining the Military Training Civic.  +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength for the first 10 turns after declaring a War of Territorial Expansion.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_GENGHIS_KHAN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- GENGHIS KHAN</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_LAUTARO_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- LAUTARO</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_POUNDMAKER_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- POUNDMAKER</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ROBERT_THE_BRUCE_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- ROBERT THE BRUCE</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ROBERT_THE_BRUCE_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of ROBERT THE BRUCE.[NEWLINE][NEWLINE]Scottish Enlightenment--Happy cities receive an additional +5%  [ICON_SCIENCE] Science and +5%  [ICON_PRODUCTION] Production. Happy cities generate +1  [ICON_GreatScientist] Great Scientist point per Campus and +1 [ICON_GreatEngineer] Great Engineer point per Industrial Zone. Ecstatic cities double all these amounts.[NEWLINE][NEWLINE]Bannockburn--Can declare a War of Liberation after gaining the Defensive Tactics Civic.  +100% [ICON_Production] Production and +2 [ICON_Movement] Movement for the first 10 turns after declaring a War of Liberation.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_SEONDEOK_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- SEONDEOK</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_SHAKA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- SHAKA</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_TAMAR_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- TAMAR</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_TAMAR_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of TAMAR.[NEWLINE][NEWLINE]Strength in Unity--When making Dedications at the beginning of a Golden Age or Heroic Age, receive the Normal Age bonus towards improving Era Score in addition to the other bonus. +50% [ICON_PRODUCTION] Production towards defensive buildings.[NEWLINE][NEWLINE]Glory of the World, Kingdom and Faith--+100% [ICON_FAITH] Faith for 10 turns after declaring a Protectorate War. Each [ICON_ENVOY] Envoy you send to a city-state of your majority Religion counts as two [ICON_ENVOY] Envoys. (Must have a majority Religion).</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_WILHELMINA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- WILHELMINA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_WILHELMINA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of WILHELMINA.[NEWLINE][NEWLINE]Grote Rivieren--Major adjacency bonus for Campuses, Theater Squares, and Industrial Zones if next to a river. Culture Bomb adjacent tiles when completing a Harbor. +50% [ICON_Production] Production toward the Dam district and Flood Barrier building.[NEWLINE][NEWLINE]Radio Oranje--Your [ICON_TradeRoute] Trade Routes to your own cities provide +1 Loyalty per turn for the starting city. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_Culture] Culture to you.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_DIDO_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- DIDO</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_DIDO_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of DIDO.[NEWLINE][NEWLINE]Mediterranean Colonies--Begin the game with the Writing technology [ICON_TechBoosted] Eureka. Coastal cities founded by Phoenicia and located on the same continent as the Phoenician [ICON_Capital] Capital are 100% Loyal. Settlers gain +2 [ICON_Movement] Movement and +2 sight range while embarked. Settlers ignore additional [ICON_Movement] Movement costs from embarking and disembarking.[NEWLINE][NEWLINE]Founder of Carthage-- +1 [ICON_TradeRoute] Trade Route capacity for each Government Plaza building and the Government Plaza district. +50% [ICON_Production] Production toward districts in the city with the Government Plaza.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ELEANOR_ENGLAND_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- ELEANOR OF AQUITAINE (England)</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ELEANOR_ENGLAND_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of ELEANOR OF AQUITAINE (England).[NEWLINE][NEWLINE]Workshop of the World--Iron and Coal Mines accumulate 2 more resource per turn. +100% [ICON_PRODUCTION] Production towards Military Engineers. Military Engineers receive +2 charges. Buildings that provide additional yields when [ICON_POWER] Powered receive +4 of that yield. +20% [ICON_Production] Production towards Industrial Zone buildings. Harbor buildings increase Strategic Resource Stockpiles by +10 (on Standard Speed).[NEWLINE][NEWLINE]Court of Love--Great Works in Eleanor’s cities each cause -1 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ELEANOR_FRANCE_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- ELEANOR OF AQUITAINE (France)</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_ELEANOR_FRANCE_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of ELEANOR OF AQUITAINE (France).[NEWLINE][NEWLINE]Grand Tour--+20% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is +100%.[NEWLINE][NEWLINE]Court of Love--Great Works in Eleanor’s cities each cause -1 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_KRISTINA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- KRISTINA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_KRISTINA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of KRISTINA.[NEWLINE][NEWLINE]Nobel Prize--Sweden gains 50 [ICON_Favor] Diplomatic Favor when earning a Great Person. Sweden receives +1 [ICON_GreatEngineer] Great Engineer point from Factories and +1 [ICON_GreatScientist] Great Scientist point from Universities. Having Sweden in the game adds three unique World Congress competitions starting in the Industrial Era.[NEWLINE][NEWLINE]Minerva of the North--Buildings with at least three Great Work slots and wonders with at least two Great Work slots are automatically themed when they have all their slots filled. </Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_KUPE_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- KUPE</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_KUPE_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of KUPE.[NEWLINE][NEWLINE]Mana--Begin the game with the Sailing and Shipbuilding technologies unlocked and with the ability to enter Ocean tiles. Embarked units gain +2 [ICON_Movement] Movement. Unimproved Woods and Rainforest are +1 [ICON_PRODUCTION] Production. Additional +1 [ICON_Production] Production from Mercantilism and +2 [ICON_Production] Production from Conservation. Fishing Boats provide +1 [ICON_Food] Food and a Culture Bomb to adjacent tiles. Resources cannot be harvested. [ICON_GreatWriter] Great Writers cannot be earned.[NEWLINE][NEWLINE]Kupe's Voyage--Begin the game in an Ocean tile. Gain a free Builder and +1 [ICON_Citizen] Population when settling your first city. The Palace receives +3 [ICON_Housing] Housing and +1 [ICON_Amenity] Amenity. +2 [ICON_Science] Science and +2 [ICON_Science] Culture per turn before you settle your first city.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_LAURIER_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- WILFRID LAURIER</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_LAURIER_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of WILFRID LAURIER.[NEWLINE][NEWLINE]Four Faces of Peace--Cannot declare war on City-States or surprise wars. Surprise wars cannot be declared on Canada. For every 100 [ICON_TOURISM] Tourism per turn earn 1 [ICON_Favor] Diplomatic Favor per turn. Receive +100% [ICON_Favor] Diplomatic Favor from successfully completing an Emergency or Scored Competition.[NEWLINE][NEWLINE]The Last Best West--Allows Farms to be built on Tundra terrain. After Civil Engineering is unlocked Farms can be built on Tundra Hills. In Snow, Tundra, Snow Hills, and Tundra Hills all Mines provide +1 [ICON_Production] Production, Lumber Mills provide +1 [ICON_Production] Production, Camps provide +1 [ICON_FOOD] Food, and strategic resource accumulation rate is +100%. Reduces the purchase cost of tiles in these terrain types by 50%.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MANSA_MUSA_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- MANSA MUSA</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MANSA_MUSA_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of MANSA MUSA.[NEWLINE][NEWLINE]Songs of the Jeli--City Centers gain +1 [ICON_FAITH] Faith and +1 [ICON_FOOD] for every adjacent Desert and Desert Hills tiles. Mines receive -1 [ICON_PRODUCTION] Production and +4 [ICON_GOLD] Gold. May purchase Commercial Hub district buildings with [ICON_Faith] Faith. -30% [ICON_PRODUCTION] Production toward constructing buildings or training units.[NEWLINE][NEWLINE]Sahel Merchants--International [ICON_TradeRoute] Trade Routes gain +1 [ICON_GOLD] Gold for every flat Desert tile in the origin city. Receive +1 [ICON_TradeRoute] Trade Capacity every time you enter a Golden Age.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MATTHIAS_CORVINUS_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- MATTHIAS CORVINUS</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_MATTHIAS_CORVINUS_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of MATTHIAS CORVINUS.[NEWLINE][NEWLINE]Pearl of the Danube--+50% [ICON_PRODUCTION] Production to Districts and Buildings constructed across a river from a City Center.[NEWLINE][NEWLINE]Raven King--Levied units gain an ability giving them +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength.It costs 75% less [ICON_Gold] Gold and resources to upgrade Levied units. If you Levy troops from a City-State receive 2 [ICON_Envoy] Envoys with that City-State. Gain the Black Army unique unit when the Castles technology is researched.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PACHACUTI_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- PACHACUTI</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_PACHACUTI_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of PACHACUTI.[NEWLINE][NEWLINE]Mit’a--Citizens may work Mountain tiles. Mountain tiles provide +2 [ICON_PRODUCTION] Production. +1 [ICON_FOOD] Food to Mountain tiles for every adjacent Terrace Farm.[NEWLINE][NEWLINE]Qhapaq Ñan--Domestic [ICON_TradeRoute] Trade Routes gain +1 [ICON_Food] Food for every Mountain tile in the origin city. Gain the Qhapaq Ñan improvement when Foreign Trade civic is discovered.</Text>
+				</Set>
+		</Update>
+
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_SULEIMAN_NAME" Language="en_US" />
+				<Set>
+					<Text>Second ability[NEWLINE]- SULEIMAN</Text>
+				</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_BUILDING_SECOND_LEADER_SULEIMAN_DESCRIPTION" Language="en_US" />
+				<Set>
+					<Text>Choose to acquire the civilization, leader characteristics and unique unit of SULEIMAN.[NEWLINE][NEWLINE]Great Turkish Bombard--+50% [ICON_Production] Production toward siege units. All siege units gain +5 [ICON_Strength] Combat Strength against district defenses. Conquered cities do not lose [ICON_Citizen] Population. Cities not founded by the Ottomans gain +1 [ICON_AMENITIES] Amenity and +4 Loyalty per turn.[NEWLINE][NEWLINE]Grand Vizier--Exclusive unique Governor with military and diplomatic abilities. Gain the Janissary unique unit when the Gunpowder technology is researched.</Text>
+				</Set>
+		</Update>
+
+	</LocalizedText>
+</GameData>
