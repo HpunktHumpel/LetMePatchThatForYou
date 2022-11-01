@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+      <!-- Penguins from CIVITAS Resources -->
+        <Row Tag="LOC_UNIT_HERDSMAN_P0K_PENGUINS_NAME"
+             Language="en_US">
+            <Text>Herdsman (With Penguins)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_P0K_PENGUINS_DESCRIPTION"
+             Language="en_US">
+            <Text>A simple herdsman with penguins.</Text>
+        </Row>
+
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_P0K_PENGUINS_NAME"
+             Language="en_US">
+            <Text>Unrustle Penguins</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_P0K_PENGUINS_DESCRIPTION"
+             Language="en_US">
+            <Text>Unrustles Penguins.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

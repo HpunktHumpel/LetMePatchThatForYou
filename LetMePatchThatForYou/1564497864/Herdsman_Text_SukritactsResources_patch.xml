@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+      <!-- Bisons from Sukritact's Resources -->
+        <Row Tag="LOC_UNIT_HERDSMAN_DLV_BISON_NAME"
+             Language="en_US">
+            <Text>Herdsman (With Bisons)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_DLV_BISON_DESCRIPTION"
+             Language="en_US">
+            <Text>A simple herdsman with bisons.</Text>
+        </Row>
+
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_DLV_BISON_NAME"
+             Language="en_US">
+            <Text>Unrustle Bisons</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_DLV_BISON_DESCRIPTION"
+             Language="en_US">
+            <Text>Unrustles Bisons.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

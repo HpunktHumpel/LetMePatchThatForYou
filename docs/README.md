@@ -1,6 +1,6 @@
 # Let Me Patch That For You - Docs
 
-![Logo](ConfigOverview_v6.jpg)
+![Logo](ConfigOverview_v7.jpg)
 
 ## Included patches
 So far the following patches have been added to this mod:
@@ -8,6 +8,8 @@ So far the following patches have been added to this mod:
 - **Botanist Guildmaster patch** (improvement)<br>This patch adds the botanist to Governor Liang's "Guildmaster" promotion.
 - **Botanist in Latin America patch** (compatibility)<br>This patch lets the botanist use the resources from the "Latin American Resources" mod.
 - **Botanist Tundra Floodplains Rice patch** (compatibility)<br>This patch enables the botanist to plant rice on tundra floodplains fields introduced by the "Wetlands" mod.
+- **Herdsman herds Bisons patch** (compatibility)<br>This patch lets the herdsman use the resource Bisons from the "Sukritact's Resources" mod.
+- **Herdsman herds Penguins America patch** (compatibility)<br>This patch lets the herdsman use the resource Penguins from the "CIVITAS Resources" mod.
 - **Herdsman Guildmaster patch** (improvement)<br>This patch adds the herdsman to Governor Liang's "Guildmaster" promotion.
 - **Herdsman in Latin America patch** (compatibility)<br>This patch lets the herdsman use the resources from the "Latin American Resources" mod.
 - **Indonesia Rework Gajah Madah patch** (fixing)<br>This patch fixes the non-working production bonus of Governor Gajah Madah's base promotion.
