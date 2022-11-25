@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="7">
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="8">
   <Properties>
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1667334226</Created>
+    <Created>1669371618</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Junky</SpecialThanks>
@@ -19,6 +19,7 @@
     <Mod id="78aa4d0b-742a-4d7a-be7d-a8317d69fb30" title="LatinAmericanResources" />
     <Mod id="7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3" title="Lyceum" />
     <Mod id="a847b8ed-e266-4d30-8037-a7372f4f4b40" title="Reindeer" />
+    <Mod id="23879c66-7cbb-4320-a891-ad24026f1b6b" title="Resourceful2" />
     <Mod id="c4f7b625-9b4e-4067-a41c-a9fb5ecfaa23" title="SecondAbility" />
     <Mod id="37fdca0b-9275-4235-9c18-c7ec348f930e" title="SukritactsResources" />
     <Mod id="d520c390-cddc-41d0-98ae-e0d6733d859e" title="VeryNiceMagazine" />
@@ -46,6 +47,9 @@
     </Criteria>
     <Criteria id="ReindeerEnabled">
       <ModIsEnabled>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModIsEnabled>
+    </Criteria>
+    <Criteria id="Resourceful2Enabled">
+      <ModIsEnabled>23879c66-7cbb-4320-a891-ad24026f1b6b</ModIsEnabled>
     </Criteria>
     <Criteria id="SecondAbilityEnabled">
       <ModIsEnabled>c4f7b625-9b4e-4067-a41c-a9fb5ecfaa23</ModIsEnabled>
@@ -89,6 +93,9 @@
     </Criteria>
     <Criteria id="ReindeerInUse">
       <ModInUse>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModInUse>
+    </Criteria>
+    <Criteria id="Resourceful2InUse">
+      <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>
     </Criteria>
     <Criteria id="SecondAbilityInUse">
       <ModInUse>c4f7b625-9b4e-4067-a41c-a9fb5ecfaa23</ModInUse>
@@ -155,6 +162,13 @@
     <Criteria id="HerdsmanInLatinAmericaConfig">
       <ConfigurationValueMatches>
         <ConfigurationId>LMPT4U_HERDSMANINLATINAMERICA_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="HerdsmanResourceful2Config">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_HERDSMANRESOURCEFUL2_CONFIG</ConfigurationId>
         <Group>Game</Group>
         <Value>1</Value>
       </ConfigurationValueMatches>
@@ -267,6 +281,14 @@
         <LoadOrder>9999999</LoadOrder>
       </Properties>
       <File>1564497864/LMPT4U_GameSetup_LatinAmerica.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="HerdsmanResourceful2_GameSetup">
+      <Criteria>HerdsmanEnabled</Criteria>
+      <Criteria>Resourceful2Enabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/LMPT4U_GameSetup_Resourceful2.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="HerdsmanSukritactsResources_GameSetup">
       <Criteria>HerdsmanEnabled</Criteria>
@@ -493,6 +515,35 @@
       <File>1564497864/Herdsman_Text_LatinAmerica_patch.sql</File>
       <File>1564497864/Herdsman_Text_LatinAmerica_patch.xml</File>
     </UpdateText>
+    <UpdateDatabase id="HerdsmanResourceful2_Gameplay">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>Resourceful2InUse</Criteria>
+      <Criteria>HerdsmanResourceful2Config</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Herdsman_Gameplay_Resourceful2_patch.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="HerdsmanResourceful2_Icons">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>Resourceful2InUse</Criteria>
+      <Criteria>HerdsmanResourceful2Config</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Icons_Resourceful2_patch.sql</File>
+      <File>1564497864/Icons_Resourceful2_patch.xml</File>
+    </UpdateIcons>
+    <UpdateText id="HerdsmanResourceful2_Text">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>Resourceful2InUse</Criteria>
+      <Criteria>HerdsmanResourceful2Config</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Herdsman_Text_Resourceful2_patch.sql</File>
+      <File>1564497864/Herdsman_Text_Resourceful2_patch.xml</File>
+    </UpdateText>
     <UpdateDatabase id="HerdsmanSukritactsResources_Gameplay">
       <Criteria>HerdsmanInUse</Criteria>
       <Criteria>SukritactsResourcesInUse</Criteria>
@@ -598,23 +649,29 @@
     <File>1564497864/Herdsman_Gameplay_CIVITASResources_patch.sql</File>
     <File>1564497864/Herdsman_Gameplay_Guildmaster_patch.xml</File>
     <File>1564497864/Herdsman_Gameplay_LatinAmerica_patch.sql</File>
+    <File>1564497864/Herdsman_Gameplay_Resourceful2_patch.sql</File>
     <File>1564497864/Herdsman_Gameplay_SukritactsResources_patch.sql</File>
     <File>1564497864/Herdsman_Text_CIVITASResources_patch.sql</File>
     <File>1564497864/Herdsman_Text_CIVITASResources_patch.xml</File>
     <File>1564497864/Herdsman_Text_Guildmaster_patch.sql</File>
     <File>1564497864/Herdsman_Text_LatinAmerica_patch.sql</File>
     <File>1564497864/Herdsman_Text_LatinAmerica_patch.xml</File>
+    <File>1564497864/Herdsman_Text_Resourceful2_patch.sql</File>
+    <File>1564497864/Herdsman_Text_Resourceful2_patch.xml</File>
     <File>1564497864/Herdsman_Text_SukritactsResources_patch.sql</File>
     <File>1564497864/Herdsman_Text_SukritactsResources_patch.xml</File>
     <File>1564497864/Icons_CIVITASResources_patch.sql</File>
     <File>1564497864/Icons_CIVITASResources_patch.xml</File>
     <File>1564497864/Icons_LatinAmerica_patch.sql</File>
     <File>1564497864/Icons_LatinAmerica_patch.xml</File>
+    <File>1564497864/Icons_Resourceful2_patch.sql</File>
+    <File>1564497864/Icons_Resourceful2_patch.xml</File>
     <File>1564497864/Icons_SukritactsResources_patch.sql</File>
     <File>1564497864/Icons_SukritactsResources_patch.xml</File>
     <File>1564497864/LMPT4U_GameSetup_CIVITASResources.sql</File>
     <File>1564497864/LMPT4U_GameSetup_Guildmaster.sql</File>
     <File>1564497864/LMPT4U_GameSetup_LatinAmerica.sql</File>
+    <File>1564497864/LMPT4U_GameSetup_Resourceful2.sql</File>
     <File>1564497864/LMPT4U_GameSetup_SukritactsResources.sql</File>
     <File>1564497864/LMPT4U_LOC_GameSetup.sql</File>
     <File>1588097397/BotanistAndHerdsman_Text_Guildmaster_patch.sql</File>

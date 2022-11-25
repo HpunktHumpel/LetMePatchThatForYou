@@ -3,13 +3,13 @@ Domain, DefaultValue, ConfigurationGroup, ConfigurationId, GroupId, Visible, Rea
 SupportsSinglePlayer, SupportsLANMultiplayer, SupportsInternetMultiplayer, SupportsHotSeat, SupportsPlayByCloud,
 ChangeableAfterGameStart, ChangeableAfterPlayByCloudMatchCreate, SortIndex) VALUES
 
-( 'LMPT4U_HERDSMANCIVITASRESOURCES_CONFIG',           -- ParameterId
-  'LOC_LMPT4U_HERDSMANCIVITASRESOURCES_CONFIG_NAME',  -- Name
-  'LOC_LMPT4U_HERDSMANCIVITASRESOURCES_CONFIG_DESC',  -- Description
-  'bool',                                             -- Domain
-  1,                                                  -- DefaultValue
-  'Game',                                             -- ConfigurationGroup
-  'LMPT4U_HERDSMANCIVITASRESOURCES_CONFIG',           -- ConfigurationId
+( 'LMPT4U_HERDSMANRESOURCEFUL2_CONFIG',           -- ParameterId
+  'LOC_LMPT4U_HERDSMANRESOURCEFUL2_CONFIG_NAME',  -- Name
+  'LOC_LMPT4U_HERDSMANRESOURCEFUL2_CONFIG_DESC',  -- Description
+  'bool',                                         -- Domain
+  1,                                              -- DefaultValue
+  'Game',                                         -- ConfigurationGroup
+  'LMPT4U_HERDSMANRESOURCEFUL2_CONFIG',           -- ConfigurationId
   'AdvancedOptions',                                  -- GroupId
   1,    -- GroupId
   0,    -- ReadOnly
@@ -20,5 +20,5 @@ ChangeableAfterGameStart, ChangeableAfterPlayByCloudMatchCreate, SortIndex) VALU
   1,    -- SupportsPlayByCloud
   0,    -- ChangeableAfterGameStart
   0,    -- ChangeableAfterPlayByCloudMatchCreate
-  75085 -- SortIndex
+  75084 -- SortIndex
 );

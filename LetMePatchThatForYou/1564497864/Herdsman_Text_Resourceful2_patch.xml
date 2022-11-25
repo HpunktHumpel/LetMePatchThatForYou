@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+      <!-- Ham from Resourceful2 Resources -->
+        <Row Tag="LOC_UNIT_HERDSMAN_HAM_NAME"
+             Language="en_US">
+            <Text>Herdsman (With Ham)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_HAM_DESCRIPTION"
+             Language="en_US">
+            <Text>A simple herdsman with ham.</Text>
+        </Row>
+
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_HAM_NAME"
+             Language="en_US">
+            <Text>Unrustle Ham</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_HAM_DESCRIPTION"
+             Language="en_US">
+            <Text>Unrustles Ham.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>
