@@ -1,6 +1,6 @@
 # Let Me Patch That For You - Docs
 
-![Logo](ConfigOverview_v8.jpg)
+![Logo](ConfigOverview_v9.jpg)
 
 ## Included patches
 So far the following patches have been added to this mod:
@@ -16,6 +16,7 @@ So far the following patches have been added to this mod:
 - **Indonesia Rework Gajah Madah patch** (fixing)<br>This patch fixes the non-working production bonus of Governor Gajah Madah's base promotion.
 - **Lyceum patch** (cosmetic)<br>A small patch to fix/add the Lyceum's name and description to this building.
 - **Reindeer patch** (cosmetic)<br>A small patch to add the reindeer to the description of "Animal husbandry".
+- **Resource Project for Natural Gas** (compatibility)<br>This patch adds the resource project for natural gas to the mod.
 - **Second Ability NFP Patch** (compatibility)<br>This patch adds the new leaders introduced by the New Frontier Pass (NFP) to the mod.
 - **Very Nice Magazine patch** (cosmetic)<br>A small patch to fix/add the Magazine's name and description to this building.
 

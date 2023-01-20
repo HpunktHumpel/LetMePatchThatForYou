@@ -1,0 +1,3 @@
+
+INSERT OR IGNORE INTO IconDefinitions('Name', 'Atlas', 'Index') VALUES
+	('ICON_PROJECT_GET_RESOURCE_GAS', 'ICON_ATLAS_UNITS', 18);
