@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+      <!-- Furs from vanilla Resources -->
+        <Row Tag="LOC_UNIT_HERDSMAN_FURS_NAME"
+             Language="en_US">
+            <Text>Herdsman (With Foxes)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_FURS_DESCRIPTION"
+             Language="en_US">
+            <Text>A simple herdsman with foxes.</Text>
+        </Row>
+
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_FURS_NAME"
+             Language="en_US">
+            <Text>Unrustle Foxes</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_FURS_DESCRIPTION"
+             Language="en_US">
+            <Text>Unrustles Foxes.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

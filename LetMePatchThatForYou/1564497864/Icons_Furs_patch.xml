@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <IconDefinitions>
+    <Row Name="ICON_UNIT_HERDSMAN_FURS" Atlas="ICON_ATLAS_HERDSMAN_UNITS" Index="0" />
+  </IconDefinitions>
+</GameData>

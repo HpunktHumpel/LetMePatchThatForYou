@@ -9,6 +9,7 @@ So far the following patches have been added to this mod:
 - **Botanist in Latin America patch** (compatibility)<br>This patch lets the botanist use the resources from the "Latin American Resources" mod.
 - **Botanist Tundra Floodplains Rice patch** (compatibility)<br>This patch enables the botanist to plant rice on tundra floodplains fields introduced by the "Wetlands" mod.
 - **Herdsman herds Bisons patch** (compatibility)<br>This patch lets the herdsman use the resource Bisons from the "Sukritact's Resources" mod.
+- **Herdsman herds Foxes patch** (improvement)<br>This patch lets the herdsman use the resource Furs.
 - **Herdsman herds Ham patch** (compatibility)<br>This patch lets the herdsman use the resource Ham from the "Resourceful 2" mod.
 - **Herdsman herds Penguins America patch** (compatibility)<br>This patch lets the herdsman use the resource Penguins from the "CIVITAS Resources" mod.
 - **Herdsman Guildmaster patch** (improvement)<br>This patch adds the herdsman to Governor Liang's "Guildmaster" promotion.

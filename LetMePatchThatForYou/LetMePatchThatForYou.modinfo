@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="9">
+<Mod id="65572e93-b96c-483e-b42e-15a5f6231aa0" version="10">
   <Properties>
     <Name>[ICON_New] [COLOR_LIGHTBLUE]Let Me Patch That For You[ENDCOLOR]</Name>
     <Description>This is a collection of patches for Civilization VI mods that seem to be "orphaned".</Description>
     <CustomProperties></CustomProperties>
-    <Created>1674253774</Created>
+    <Created>1719352656</Created>
     <Teaser>A collection of patches for "orphaned" Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Junky</SpecialThanks>
@@ -159,6 +159,13 @@
         <Value>1</Value>
       </ConfigurationValueMatches>
     </Criteria>
+    <Criteria id="HerdsmanFursConfig">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LMPT4U_HERDSMANFURS_CONFIG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
     <Criteria id="HerdsmanGuildmasterConfig">
       <ConfigurationValueMatches>
         <ConfigurationId>LMPT4U_HERDSMANGUILDMASTER_CONFIG</ConfigurationId>
@@ -287,6 +294,13 @@
         <LoadOrder>9999999</LoadOrder>
       </Properties>
       <File>1564497864/LMPT4U_GameSetup_CIVITASResources.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="HerdsmanFurs_GameSetup">
+      <Criteria>HerdsmanEnabled</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/LMPT4U_GameSetup_Furs.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="HerdsmanGuildmaster_GameSetup">
       <Criteria>HerdsmanEnabled</Criteria>
@@ -505,6 +519,32 @@
       <File>1564497864/Herdsman_Text_CIVITASResources_patch.sql</File>
       <File>1564497864/Herdsman_Text_CIVITASResources_patch.xml</File>
     </UpdateText>
+    <UpdateDatabase id="HerdsmanFursResources_Gameplay">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>HerdsmanFursConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Herdsman_Gameplay_Furs_patch.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="HerdsmanFurs_Icons">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>HerdsmanFursConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Icons_Furs_patch.sql</File>
+      <File>1564497864/Icons_Furs_patch.xml</File>
+    </UpdateIcons>
+    <UpdateText id="HerdsmanFurs_Text">
+      <Criteria>HerdsmanInUse</Criteria>
+      <Criteria>HerdsmanFursConfig</Criteria>
+      <Properties>
+        <LoadOrder>9999999</LoadOrder>
+      </Properties>
+      <File>1564497864/Herdsman_Text_Furs_patch.sql</File>
+      <File>1564497864/Herdsman_Text_Furs_patch.xml</File>
+    </UpdateText>
     <UpdateDatabase id="HerdsmanGuildmaster_Gameplay">
       <Criteria>HerdsmanInUse</Criteria>
       <Criteria>HerdsmanGuildmasterConfig</Criteria>
@@ -710,12 +750,15 @@
     <File>1520617700/SecondAbility_Text_NFP_patch.xml</File>
     <File>1520617700/SecondAbility_Units_NFP_patch.xml</File>
     <File>1564497864/Herdsman_Gameplay_CIVITASResources_patch.sql</File>
+    <File>1564497864/Herdsman_Gameplay_Furs_patch.sql</File>
     <File>1564497864/Herdsman_Gameplay_Guildmaster_patch.xml</File>
     <File>1564497864/Herdsman_Gameplay_LatinAmerica_patch.sql</File>
     <File>1564497864/Herdsman_Gameplay_Resourceful2_patch.sql</File>
     <File>1564497864/Herdsman_Gameplay_SukritactsResources_patch.sql</File>
     <File>1564497864/Herdsman_Text_CIVITASResources_patch.sql</File>
     <File>1564497864/Herdsman_Text_CIVITASResources_patch.xml</File>
+    <File>1564497864/Herdsman_Text_Furs_patch.sql</File>
+    <File>1564497864/Herdsman_Text_Furs_patch.xml</File>
     <File>1564497864/Herdsman_Text_Guildmaster_patch.sql</File>
     <File>1564497864/Herdsman_Text_LatinAmerica_patch.sql</File>
     <File>1564497864/Herdsman_Text_LatinAmerica_patch.xml</File>
@@ -725,6 +768,8 @@
     <File>1564497864/Herdsman_Text_SukritactsResources_patch.xml</File>
     <File>1564497864/Icons_CIVITASResources_patch.sql</File>
     <File>1564497864/Icons_CIVITASResources_patch.xml</File>
+    <File>1564497864/Icons_Furs_patch.sql</File>
+    <File>1564497864/Icons_Furs_patch.xml</File>
     <File>1564497864/Icons_LatinAmerica_patch.sql</File>
     <File>1564497864/Icons_LatinAmerica_patch.xml</File>
     <File>1564497864/Icons_Resourceful2_patch.sql</File>
@@ -732,6 +777,7 @@
     <File>1564497864/Icons_SukritactsResources_patch.sql</File>
     <File>1564497864/Icons_SukritactsResources_patch.xml</File>
     <File>1564497864/LMPT4U_GameSetup_CIVITASResources.sql</File>
+    <File>1564497864/LMPT4U_GameSetup_Furs.sql</File>
     <File>1564497864/LMPT4U_GameSetup_Guildmaster.sql</File>
     <File>1564497864/LMPT4U_GameSetup_LatinAmerica.sql</File>
     <File>1564497864/LMPT4U_GameSetup_Resourceful2.sql</File>
