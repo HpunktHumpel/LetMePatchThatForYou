@@ -1,6 +1,6 @@
 # Let Me Patch That For You - Docs
 
-![Logo](ConfigOverview_v9.jpg)
+![Logo](ConfigOverview_v10.jpg)
 
 ## Included patches
 So far the following patches have been added to this mod:
